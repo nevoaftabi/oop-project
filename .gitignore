@@ -162,6 +162,39 @@ coverage*.json
 coverage*.xml
 coverage*.info
 
+# Ignore Visual Studio user-specific files
+.vs/
+*.user
+*.suo
+
+# Ignore build output directories
+x64/
+x86/
+Debug/
+Release/
+bin/
+obj/
+
+# Ignore intermediate files
+*.log
+*.obj
+*.pdb
+*.tlog
+*.idb
+*.ilk
+
+# Ignore temporary files
+*.tmp
+*.cache
+*.db
+
+# Ignore solution user options
+*.vcxproj.user
+
+# Ignore other system files
+Thumbs.db
+.DS_Store
+
 # Visual Studio code coverage results
 *.coverage
 *.coveragexml
