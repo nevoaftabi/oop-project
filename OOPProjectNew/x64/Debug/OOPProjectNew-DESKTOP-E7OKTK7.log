@@ -1,0 +1,13 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(787,5): warning MSB6008: Forcing a rebuild of all sources due to an error with the tracking logs. The cloud sync provider failed to validate the downloaded data.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(787,5): warning MSB6008: 
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(787,5): error MSB6003: The specified task executable "CL.exe" could not be run. System.IO.IOException: The cloud sync provider failed to validate the downloaded data.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(787,5): error MSB6003: 
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(787,5): error MSB6003:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(787,5): error MSB6003:    at System.IO.FileStream.ReadCore(Byte[] buffer, Int32 offset, Int32 count)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(787,5): error MSB6003:    at System.IO.FileStream.Read(Byte[] array, Int32 offset, Int32 count)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(787,5): error MSB6003:    at System.IO.StreamReader.ReadBuffer()
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(787,5): error MSB6003:    at System.IO.StreamReader.ReadLine()
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(787,5): error MSB6003:    at Microsoft.Build.CPPTasks.TrackedVCToolTask.MapSourcesToCommandLines()
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(787,5): error MSB6003:    at Microsoft.Build.CPPTasks.TrackedVCToolTask.GenerateSourcesOutOfDateDueToCommandLine()
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(787,5): error MSB6003:    at Microsoft.Build.CPPTasks.CL.ComputeOutOfDateSources()
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(787,5): error MSB6003:    at Microsoft.Build.Utilities.ToolTask.Execute()
